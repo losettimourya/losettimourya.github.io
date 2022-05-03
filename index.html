@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <title>Personal webpage</title>
+    <head><link rel="stylesheet" href="CSS/styles.css"></head>
+    <style>
+        body{
+            background-image: url(https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 21.33px;
+        }
+        .h1
+        {
+            color: yellowgreen;
+            text-align: center;
+            font-size: 37.33px;
+        }
+        .img{
+            width: 500px;
+        }
+        th{
+            color: white;
+            height: 70px;
+            font-size: xx-large;
+        }
+        td{
+            color: whitesmoke;
+            height: 70px;
+        }
+    </style>
+    <body>
+        <h1 class="h1">Personal Website</h1>
+    <table border="1" align="center">
+        <tr>
+            <th>About Myself</th>
+            <td>Hey guys,I am L S A Mourya,student of IIIT Hyderabad and I'm pursuing a bachelor's degree in Computer Science Engineering.</td>
+        </tr>
+        <tr>
+            <th>Profile image</th>
+            <td><img class="img" src="https://scx2.b-cdn.net/gfx/news/2022/studying-penguin-poo-t.jpg"></td>
+        </tr>
+        <tr>
+            <th>Education background</th>
+            <td>Passed 12th with 98.8% in Narayana Junior College<br></td>
+        </tr>
+        <tr>
+            <th align="center">Achievements</th>
+            <td>KVPY Scholar<br>369 rank in JEE mains and 1089 rank in JEE Advanced<br>2 time State Level Abacus Champion<br></td>
+        </tr>
+        <tr>
+            <th align="center">Skills</th>
+            <td>Nothing sadly &#128534<br></td>
+        </tr>
+    </table>
+    <br><br>
+    <center>
+        <a href="https://twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/512/124/124021.png"></a>
+        <a href="https://facebook.com"><img class="facebook" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-icon-logo-png-transparent.png"></a>
+    </center>
+    <br>
+    <center>
+        <p>Link for the CSS file of this page: </p><br>
+        <a href="styles.css"><img class="twitter" src="https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8-320-80.jpg"></a>
+    </center>
+    <center>
+        <p class="bgcolor">Change background color to:</p><br>
+    <input type="button" class="button" onclick="changecolor('red');" value="Red">
+    <input type="button" class="button" onclick="changecolor('green');" value="Green">
+    <input type="button" class="button" onclick="changecolor('blue');" value="Blue">
+    <input type="button" class="button" onclick="changecolor('white');" value="White">
+    <input type="button" class="bbutton" onclick="changeimage();" value="Revert Back">
+
+    <br><br>
+      <p class="bgcolor">Change font size to</p><br>
+      <input type="button" class="button" onclick="changefont('5.33px');" value="1">
+    <input type="button" class="button" onclick="changefont('10.67px');" value="2">
+      <input type="button" class="button" onclick="changefont('16px');" value="3">
+    <input type="button" class="button" onclick="changefont('21.33px');" value="4">
+    <input type="button" class="button" onclick="changefont('26.67px');" value="5">
+    <input type="button" class="button" onclick="changefont('32px');" value="6">
+    <input type="button" class="button" onclick="changefont('37.33px');" value="7">
+    </center>
+    <center>
+    <!--<p>News and Updates</p>
+    <form class="wrapper">
+        <div id="survey_options">
+          <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Name">
+          <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Email">
+          <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Another Field">
+        </div>
+        <div class="controls">
+          <a href="#" id="add_more_fields"><i class="fa fa-plus"></i>Add More</a>
+          <a href="#" id="remove_fields"><i class="fa fa-plus"></i>Remove Field</a>
+        </div>
+    </form>-->
+    <br>
+    <div class="container">
+        <br>
+        <p class="bgcolor">News and Updates</p>
+    <form class="update-form">
+          <input type="text" class="update-input" placeholder="Add an Update...">
+          <button type="submit" class="add-button">Add</button>
+        </form>
+    <ul class="update-items">
+          <li class="item">
+          </li>
+        </ul>
+      </div>
+      </center>
+      <script src="JS/as2.js"></script>
+    </body>
+</html>
